@@ -1,0 +1,23 @@
+1.2077 theme
+2.Andromeda theme
+3.August themes
+4.C/C++
+5.Code Runner
+6.Color Picker
+7.Hack The Box
+8.Halcyon theme
+9.HTML Boilerplate
+10.Indent-Rainbow
+11.Intellicode
+12.Intellicode Api usage examples
+13.isort
+14.Live Server
+15.Material icon theme
+16.Outrun
+17.Path Intellisense
+18.Python
+19.Shades of Purple
+20.SynthWave '84
+21.SynthWave x Flouromachine
+22.Tokyo Night
+23.Workbench Themes
