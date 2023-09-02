@@ -1,0 +1,57 @@
+format = """\
+[](fg:#48FF7B)\
+$directory\
+[](fg:#48FF7b bg:#305DFF)\
+$git_branch\
+$git_status\
+[](fg:#305DFF bg:#122B49)\
+$character\
+[ ](fg:#122B49)\
+"""
+# right_format = """\
+# $battery\
+# """
+
+# [username]
+# format = '[$user]($style)'
+# style_user = "#1386E4"
+# style_root = "#1386E4"
+# show_always = true
+# disabled = true
+
+
+[directory]
+format = "[ \ue5ff $path ]($style)"
+style = "fg:#00042C bg:#48FF7b"
+home_symbol = "~"
+truncation_length = 3
+truncation_symbol = "…/"
+
+[git_branch]
+format = "[ \uf126 $branch]($style)"
+style = "fg:#FFFFFF bg:#305DFF"
+truncation_length = 4
+truncation_symbol = "…/"
+
+
+[git_status]
+format = '[ $modified$staged$untracked]($style)'
+style = "fg:#FFFFFF bg:#305DFF"
+ahead = "\ueaa0${count} "
+behind = "\uea9d${count} "
+untracked = "?${count} "
+modified = "!${count} "
+staged = "\uf44d${count} "
+
+# [git_metrics]
+# format = "([+$added]($added_style))[]($added_style)"
+# added_style = "fg:#1C3A5E bg:#FCF392"
+# deleted_style = "fg:bright-red bg:235"
+# disabled = false
+
+[character]
+format = "[$symbol]($style)"
+success_symbol = "[ \uf00c ](bg:#122B49 fg:#48FF7B)"
+error_symbol = "[ \uf00d ](bg:#122B49 fg:#f53535)"
+
+

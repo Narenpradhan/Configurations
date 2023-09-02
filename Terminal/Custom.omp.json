@@ -1,0 +1,76 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "alignment": "left",
+      "segments": [
+        {
+          "background": "#1386e4",
+          "foreground": "#171b26",
+          "leading_diamond": "\ue0b6",
+          "powerline_symbol": "\ue0b0",
+          "properties": {
+            "style": "folder"
+          },
+          "style": "diamond",
+          "template": " \ue5ff {{ .Path }} ",
+          //"trailing_diamond": "\ue0b0",
+          "type": "path"
+        },
+        {
+          "background": "#833ff0",
+          "background_templates": [
+            "{{ if or (.Working.Changed) (.Staging.Changed) }}#f77622{{ end }}",
+            "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#e43b44{{ end }}",
+            "{{ if gt .Ahead 0 }}#2c58f5{{ end }}",
+            "{{ if gt .Behind 0 }}#f77622{{ end }}"
+          ],
+          "foreground": "#000000",
+          //"leading_diamond": "\ue0b0",
+          "powerline_symbol": "\ue0b0",
+          "properties": {
+            "branch_icon": "\uf126 ",
+            "branch_max_length": 25,
+            "fetch_stash_count": true,
+            "fetch_status": true,
+            "fetch_upstream_icon": true
+          },
+          "style": "powerline",
+          "template": " {{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if gt .StashCount 0 }} \uf692 {{ .StashCount }}{{ end }} ",
+          //"trailing_diamond": "\ue0b0",
+          "type": "git"
+        },
+        {
+          "background": "#750ed4",
+          "foreground": "#000000",
+          "powerline_symbol": "\ue0b0",
+          "style": "powerline",
+          "template": " \ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} ",
+          "type": "python"
+        },
+        {
+          "background": "#8ee43d",
+          "background_templates": [
+              "{{ if gt .Code 0 }}#f53535{{ end }}"
+            ],
+          "foreground": "#061133",
+          "foreground_templates": [
+              "{{ if gt .Code 0 }}#ffffff{{ end }}"
+            ],
+          "leading_diamond": "\ue0b0",
+          "powerline_symbol": "\ue0b0",
+          "properties": {
+              "always_enabled": true
+            },
+          "style": "powerline",
+          "template": " {{ if gt .Code 0 }}\uf00d{{else}}\uf00c{{ end }} ",
+          "type": "exit"
+        }
+        
+      ],
+      "type": "prompt"
+    }  
+  ],
+  "final_space": true,
+  "version": 2
+}

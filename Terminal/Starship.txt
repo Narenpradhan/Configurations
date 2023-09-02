@@ -1,0 +1,13 @@
+Install nerd font & starship
+
+#For pwsh
+1- notepad $PROFILE ----->
+
+$ENV:STARSHIP_CONFIG = "D:\Terminal\starship.toml"
+Invoke-Expression (&starship init powershell)
+
+Import-Module -Name Terminal-Icons
+
+2- .$PROFILE
+
+#For bash
