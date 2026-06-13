@@ -1,0 +1,168 @@
+{
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "files.autoSave": "afterDelay",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.preferredDarkColorTheme": "One Dark Pro",
+    "editor.cursorBlinking": "expand",
+    "editor.hideCursorInOverviewRuler": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.folders.theme": "specific",
+    "material-icon-theme.folders.color": "#fdd835",
+    "material-icon-theme.opacity": 1,
+    "material-icon-theme.activeIconPack": "vue",
+    "material-icon-theme.hidesExplorerArrows": false,
+    "material-icon-theme.saturation": 1,
+    "code-runner.executorMap": {
+
+    
+        "javascript": "node",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "php": "php",
+        "python": "python -u",
+        "perl": "perl",
+        "perl6": "perl6",
+        "ruby": "ruby",
+        "go": "go run",
+        "lua": "lua",
+        "groovy": "groovy",
+        "powershell": "powershell -ExecutionPolicy ByPass -File",
+        "bat": "cmd /c",
+        "shellscript": "bash",
+        "fsharp": "fsi",
+        "csharp": "scriptcs",
+        "vbscript": "cscript //Nologo",
+        "typescript": "ts-node",
+        "coffeescript": "coffee",
+        "scala": "scala",
+        "swift": "swift",
+        "julia": "julia",
+        "crystal": "crystal",
+        "ocaml": "ocaml",
+        "r": "Rscript",
+        "applescript": "osascript",
+        "clojure": "lein exec",
+        "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+        "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+        "racket": "racket",
+        "scheme": "csi -script",
+        "ahk": "autohotkey",
+        "autoit": "autoit3",
+        "dart": "dart",
+        "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+        "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+        "haskell": "runhaskell",
+        "nim": "nim compile --verbosity:0 --hints:off --run",
+        "lisp": "sbcl --script",
+        "kit": "kitc --run",
+        "v": "v run",
+        "sass": "sass --style expanded",
+        "scss": "scss --style expanded",
+        "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+        "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "sml": "cd $dir && sml $fileName"
+    },
+    "window.commandCenter": true,
+    "editor.largeFileOptimizations": false,
+    "indentRainbow.indicatorStyle": "light",
+    "indentRainbow.lightIndicatorStyleLineWidth": 2,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "FiraCode Nerd Font Mono Regular",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorWidth": 3,
+    "explorer.confirmDragAndDrop": false,
+    "debug.terminal.clearBeforeReusing": true,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.explorerKind": "external",
+    "workbench.editor.autoLockGroups": {
+        "vscode.markdown.preview.editor": true
+    },
+    "terminal.external.windowsExec": "C:\\Users\\Naren Pradhan\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe",
+    "terminal.integrated.fontFamily": "",
+    "html.format.indentHandlebars": true,
+    "html.format.indentInnerHtml": true,
+    "liveServer.settings.fullReload": true,
+    "git.confirmSync": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.formatOnType": true,
+    "terminal.integrated.tabs.defaultColor": "terminal.ansiMagenta",
+    "editor.linkedEditing": true,
+    "terminal.integrated.env.windows": {},
+    "console-ninja.toolsToEnableSupportAutomaticallyFor": {
+        "live-server-extension": true
+    },
+    "indentRainbow.colorOnWhiteSpaceOnly": true,
+    "editor.indentSize": "tabSize",
+    "indentRainbow.colors": [
+        
+        "rgba(255,255,64,0.07)",
+        "rgba(127,255,127,0.07)",
+        "rgba(255,127,255,0.07)",
+        "rgba(79,236,236,0.07)"
+    ],
+    "solidity.telemetry": false,
+    "editor.wordWrap": "on",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "workbench.editor.empty.hint": "hidden",
+    "terminal.integrated.smoothScrolling": true,
+    "workbench.editorAssociations": {
+        "*.csv": "default",
+        "*.zip": "default"
+    },
+    "rainbow_csv.rbql_with_headers_by_default": true,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "python.globalModuleInstallation": true,
+    "python.terminal.focusAfterLaunch": true,
+    "console-ninja.featureSet": "Community",
+    "git.openRepositoryInParentFolders": "always",
+    "python.languageServer": "Pylance",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.completeFunctionParens": true,
+    "code-runner.runInTerminal": true,
+    "notebook.output.scrolling": true,
+    "python.createEnvironment.trigger": "off",
+    "database-client.autoSync": true,
+    "[yaml]": {
+        "editor.tabSize": 4
+    },
+    "[dockercompose]": {
+        "editor.tabSize": 4
+    },
+    "redhat.telemetry.enabled": false,
+    "vs-kubernetes": {
+        "vscode-kubernetes.helm-path-windows": "C:\\Users\\Naren Pradhan\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe"
+    },
+    "remote.SSH.remotePlatform": {
+        "135.235.39.118": "linux",
+        "Neoqcr_v100": "linux"
+    },
+    "yaml.schemas": {
+        "c:\\Users\\Naren Pradhan\\.vscode\\extensions\\continue.continue-1.0.14-win32-x64\\config-yaml-schema.json": [
+            ".continue/**/*.yaml"
+        ],
+        "c:\\Users\\Naren Pradhan\\.vscode\\extensions\\continue.continue-1.0.15-win32-x64\\config-yaml-schema.json": [
+            ".continue/**/*.yaml"
+        ],
+        "c:\\Users\\Naren Pradhan\\.vscode\\extensions\\continue.continue-1.0.16-win32-x64\\config-yaml-schema.json": [
+            ".continue/**/*.yaml"
+        ]
+    },
+    "extensions.ignoreRecommendations": true,
+    "python.analysis.typeCheckingMode": "standard",
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.terminal.useEnvFile": true,
+    "python.defaultInterpreterPath": "c:\\Users\\Naren Pradhan\\AppData\\Roaming\\uv\\python\\cpython-3.12.7-windows-x86_64-none\\python.exe",
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "notebook.defaultFormatter": "ms-python.black-formatter"
+}
